@@ -27,7 +27,11 @@ function App() {
 
   return (
     <>
-      
+      <div>
+        <h2>Mi lista de tareas</h2>
+        <TaskInput onAdd={agregarTarea} />
+        <TaskList tareas={tareas} onToggle={marcarTarea} onDelete={borrarTarea} />
+      </div>
     </>
   )
 }
