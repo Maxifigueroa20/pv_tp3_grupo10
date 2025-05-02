@@ -12,7 +12,7 @@ const productos = [
     {descripcion: "Gabinete", precio: 50000},  
 ]
 //ejercicio 1
-console.log (mostrarProductos(productos);
+console.log (mostrarProductos(productos));
 
 // Ejercicio 2
 console.log('--- Productos > $20 ---');
