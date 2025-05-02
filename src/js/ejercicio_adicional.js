@@ -15,8 +15,7 @@ const productos = [
 console.log(ordenarProductos(productos));
 
 //Ejercicio 5
-const productosActualizados = agregarProducto(productos);
-console.log(productosActualizados);
+console.log(agregarProducto(productos));
 
 //Ejercicio 6
 console.log(eliminarMasBarato(productos));
