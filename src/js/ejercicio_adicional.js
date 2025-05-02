@@ -2,7 +2,7 @@ import { filtrarProductos } from "./ejercicio2.js";
 import { ordenarProductos } from "./ejercicio4.js";
 import { agregarProducto } from './ejercicio5.js';
 import { eliminarMasBarato } from './ejercicio6.js';
-
+import {mostrarProductos } from "./ejercicio1.js";
 
 const productos = [
     {descripcion: "Teclado", precio: 30000},
@@ -11,6 +11,8 @@ const productos = [
     {descripcion: "Mousepad", precio: 7000},
     {descripcion: "Gabinete", precio: 50000},  
 ]
+//ejercicio 1
+console.log (mostrarProductos(productos);
 
 // Ejercicio 2
 console.log('--- Productos > $20 ---');
