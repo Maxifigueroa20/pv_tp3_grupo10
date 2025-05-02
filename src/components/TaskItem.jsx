@@ -1,10 +1,12 @@
 import React from 'react';
 
-const TaskItem = () => {
+const TaskItem = ({ tarea, onToggle, onDelete }) => {
   return (
     <li>
-      <span>Texto de la tarea</span>
-      <button>X</button>
+      <span onClick={onToggle}>
+        {tarea.completa ? '[✔] ' : '[ ] '} {tarea.texto}
+      </span>
+      <button onClick={onDelete}>X</button>
     </li>
   );
 };
