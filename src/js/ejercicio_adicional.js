@@ -20,7 +20,7 @@ console.log('--- Productos > $20 ---');
 console.log(filtrarProductos(productos));
 
 //Ejercicio 3
-
+console.log(calcularIVA(productos));
 
 // Ejercicio 4
 console.log(ordenarProductos(productos));
