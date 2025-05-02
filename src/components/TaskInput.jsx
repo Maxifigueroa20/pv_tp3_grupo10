@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const TaskInput = () => {
+const TaskInput = ({ onAdd }) => {
     const [texto, setTexto] = useState('');
 
     const agregar = () => {
