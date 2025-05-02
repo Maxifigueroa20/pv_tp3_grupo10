@@ -19,6 +19,12 @@ function App() {
     setTareas(copia);
   }
 
+  const borrarTarea = (indice) => {
+    const copia = [...tareas];
+    copia.splice(indice, 1);
+    setTareas(copia);
+  }
+
   return (
     <>
       
