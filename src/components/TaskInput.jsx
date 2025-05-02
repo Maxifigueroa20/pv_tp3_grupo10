@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const TaskInput = () => {
-  return <div>TaskInput</div>;
+    const [texto, setTexto] = useState('');
+
+    return <div>TaskInput</div>;
 };
 
 export default TaskInput;
