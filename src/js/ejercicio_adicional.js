@@ -1,5 +1,6 @@
 import { ordenarProductos } from "./ejercicio4.js";
 import { agregarProducto } from './ejercicio5.js';
+import { eliminarMasBarato } from './ejercicio6.js';
 
 
 const productos = [
@@ -7,7 +8,7 @@ const productos = [
     {descripcion: "Mouse", precio: 11000},
     {descripcion: "Monitor", precio: 120000},
     {descripcion: "Mousepad", precio: 7000},
-    {descripcion: "Gabinete", precio: 50000},
+    {descripcion: "Gabinete", precio: 50000},  
 ]
 
 // Ejercicio 4
@@ -16,3 +17,6 @@ console.log(ordenarProductos(productos));
 //Ejercicio 5
 const productosActualizados = agregarProducto(productos);
 console.log(productosActualizados);
+
+//Ejercicio 6
+console.log(eliminarMasBarato(productos));
