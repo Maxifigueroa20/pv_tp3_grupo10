@@ -1,4 +1,6 @@
 import { ordenarProductos } from "./ejercicio4.js";
+import { agregarProducto } from './ejercicio5.js';
+
 
 const productos = [
     {descripcion: "Teclado", precio: 30000},
@@ -10,3 +12,7 @@ const productos = [
 
 // Ejercicio 4
 console.log(ordenarProductos(productos));
+
+//Ejercicio 5
+const productosActualizados = agregarProducto(productos);
+console.log(productosActualizados);
