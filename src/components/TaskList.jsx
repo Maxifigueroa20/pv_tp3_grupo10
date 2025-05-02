@@ -14,3 +14,4 @@ const TaskList = ({ tareas, onToggle, onDelete }) => {
     </ul>
   );
 };
+export default TaskList;
