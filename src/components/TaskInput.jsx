@@ -3,6 +3,11 @@ import React, { useState } from 'react';
 const TaskInput = () => {
     const [texto, setTexto] = useState('');
 
+    const agregar = () => {
+      onAdd(texto);
+      setTexto('');
+    };
+
     return <div>TaskInput</div>;
 
     return (
@@ -12,6 +17,7 @@ const TaskInput = () => {
             onChange={(e) => setTexto(e.target.value)}
             placeholder="Escribí una tarea"
           />
+          <button onClick={agregar}>Agregar</button>
         </div>
     );
 
