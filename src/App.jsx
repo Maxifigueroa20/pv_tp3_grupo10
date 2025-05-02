@@ -13,6 +13,12 @@ function App() {
     }
   }
 
+  const marcarTarea = (indice) => {
+    const copia = [...tareas];
+    copia[indice].completa = !copia[indice].completa;
+    setTareas(copia);
+  }
+
   return (
     <>
       
