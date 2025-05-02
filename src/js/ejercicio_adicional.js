@@ -1,5 +1,6 @@
 import { filtrarProductos } from "./ejercicio2.js";
 import { ordenarProductos } from "./ejercicio4.js";
+import { calcularIVA } from "./ejercicio3.js";
 import { agregarProducto } from './ejercicio5.js';
 import { eliminarMasBarato } from './ejercicio6.js';
 import {mostrarProductos } from "./ejercicio1.js";
@@ -17,6 +18,9 @@ console.log (mostrarProductos(productos));
 // Ejercicio 2
 console.log('--- Productos > $20 ---');
 console.log(filtrarProductos(productos));
+
+//Ejercicio 3
+
 
 // Ejercicio 4
 console.log(ordenarProductos(productos));
