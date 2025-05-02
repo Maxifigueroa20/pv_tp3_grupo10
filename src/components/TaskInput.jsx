@@ -8,8 +8,6 @@ const TaskInput = ({ onAdd }) => {
       setTexto('');
     };
 
-    return <div>TaskInput</div>;
-
     return (
         <div>
           <input
@@ -20,7 +18,6 @@ const TaskInput = ({ onAdd }) => {
           <button onClick={agregar}>Agregar</button>
         </div>
     );
-
 };
   
 export default TaskInput;
